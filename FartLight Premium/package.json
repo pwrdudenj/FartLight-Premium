@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "childprocess": "^2.0.2",
+    "print-js": "^1.6.0"
+  }
+}

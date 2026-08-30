@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk:MORF@15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Nabla:EDPT,EHLT@200,24&display=swap');
+.logo{
+    width: 101vw;
+    height: 50vw;
+    min-width: 10px;
+    min-height: 10px;
+    background: black;
+    margin-left: -8px;
+    margin-top: -8px;
+}
+.description{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+    background-color: rgb(255, 196, 0);
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-inline-end: -15px;
+    font-size: 50px;
+}
+body{
+    background: rgb(255, 196, 0);
+}
+.navvy {
+    background: rgb(145, 31, 180);
+    width: 100vw;
+    height: 7vw;
+    margin-left: -10px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.sep2 {
+    background: rgb(145, 31, 180);
+    height: 10px;
+}
+a {
+color: white;
+text-decoration: none;
+font-size: 3vw;
+font-family: "Space Mono", monospace;
+font-weight: 400;
+font-style: normal;
+margin-left: -2vw;
+margin-right: 2vw;
+transition: 1s;
+}
+a:hover {
+color: rgb(150, 154, 255);
+text-shadow: 0 0 10px rgb(150, 154, 255);
+font-size: 4vw;
+}
+.exp {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+#switch {
+    width: 20vw;
+    height: 10vw;
+    align-items: center;
+    text-align: center;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "EDPT" 200,
+    "EHLT" 24;
+    font-size: 2.3vw;
+    cursor: pointer;
+}
+.btn-print {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    height: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    background: #cfcfcf;
+}
+.btn-print:hover {
+background: #ffffff;
+}
+.imggg {
+    max-width: 30%;
+    max-height: auto;
+}
+#game {
+    background-color:rgb(255, 196, 0);;
+    width: 102.5%;
+    height: 40rem;
+    margin-left: -10px;
+}
+.questionbox {
+    background: rgba(133, 31, 180, 0.504);
+    width: 12.5vw;
+    height: 8vh;
+    margin: 3vw;
+    margin-left: -2vw;
+    margin-top: 2vw;
+    display: flex;
+    align-items: none;
+    justify-content: center;
+    justify-items: center;
+    font-size: 3vw;
+    cursor: pointer;
+    transition: 1s;
+    align-content: center;
+    text-align: center;
+}
+.ctn {
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh;
+    grid-template-columns: 15vw 15vw 15vw 15vw 15vw 15vw;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.butn {
+    height: 1vw;
+    width: 9vw;
+    font-size: 1vw;
+    align-self: last baseline;
+    margin: 0vw;
+
+}
