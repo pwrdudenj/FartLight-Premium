@@ -1,2 +1,0 @@
-# FartLight-Premium
-meahmmm
